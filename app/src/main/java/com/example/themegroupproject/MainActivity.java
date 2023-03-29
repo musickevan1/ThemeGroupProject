@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Switch;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends ParentActivity {
     Switch themeTog;
     TextView textView;
     View backGrnd;
