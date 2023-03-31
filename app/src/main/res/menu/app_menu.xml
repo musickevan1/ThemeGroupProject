@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="light_theme" app:showAsAction="always" android:icon="@drawable/baseline_toggle_off_24" android:id="@+id/switchToggle"/>
-    <item android:title="settings" app:showAsAction="always" android:icon="@drawable/baseline_settings_24" android:id="@+id/settings"/>
-    </menu>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/changeTheme"
+        android:icon="@drawable/baseline_toggle_on_foreground"
+        android:title="settings"
+        app:showAsAction="always" />
+</menu>

@@ -10,45 +10,34 @@
     android:background="#a0adb4"
     tools:context=".MainActivity">
 
-    <Switch
-        android:id="@+id/modeSwitch"
-        android:layout_width="135dp"
-        android:layout_height="21dp"
-        android:text="Light Mode"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.37"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textColor="#445863"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="97dp"
-        android:layout_height="27dp"
-        android:text="Dark Mode"
-        android:textAlignment="center"
-        android:textColor="#445863"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/modeSwitch"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/modeSwitch"
-        app:layout_constraintTop_toTopOf="@+id/modeSwitch"
-        app:layout_constraintVertical_bias="0.0" />
-
     <Button
         android:id="@+id/playButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/orange"
+        android:onClick="play"
         android:text="@string/Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83"
-        android:onClick="play"/>
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/titleName"
+        android:layout_width="203dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="104dp"
+        android:text="Pong!"
+        android:textAlignment="center"
+        android:textColor="#E3D6D6"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
