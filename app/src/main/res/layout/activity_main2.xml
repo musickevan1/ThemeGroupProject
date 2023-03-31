@@ -2,8 +2,18 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/canvas"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/Theme.ThemeGroupProject"
+    android:background="#a0adb4"
     tools:context=".MainActivity2">
 
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:0"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="83dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
