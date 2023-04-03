@@ -33,15 +33,17 @@ public class ParentActivity extends AppCompatActivity {
             case R.id.changeTheme:
                 backGrnd = (View) findViewById(R.id.canvas);
                 textView = (TextView) findViewById(R.id.titleName);
+
+
                 if(!currentTheme){
                     backGrnd.setBackgroundColor(Color.parseColor("#4a6572"));
-                    textView.setTextColor(Color.parseColor("#F0A636"));
+                    //textView.setTextColor(Color.parseColor("#F0A636"));
                     item.setIcon(R.drawable.baseline_toggle_off_foreground);
                     currentTheme = true;
                 }
                 else {
                     backGrnd.setBackgroundColor(Color.parseColor("#A0ADB4"));
-                    textView.setTextColor(Color.parseColor("#E3D6D6"));
+                    //textView.setTextColor(Color.parseColor("#E3D6D6"));
                     item.setIcon(R.drawable.baseline_toggle_on_foreground);
                     currentTheme = false;
                 }
